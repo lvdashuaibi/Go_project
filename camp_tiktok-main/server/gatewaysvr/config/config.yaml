@@ -1,6 +1,6 @@
 svr_config:
   name: "gatewaysvr"
-  host: "43.139.192.217"
+  host: "106.53.162.149"
   port: 8005
   mode: "dev"
   user_svr_name: "usersvr"
@@ -19,7 +19,7 @@ log:
   max_backups: 7
 
 consul:
-  host: "43.139.192.217"
+  host: "106.53.162.149"
   port: 8500
   tags:
     - "gatewaysvr"
