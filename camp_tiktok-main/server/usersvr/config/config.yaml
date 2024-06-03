@@ -1,11 +1,11 @@
 svr_config:
   name: "usersvr"
-  host: "43.139.192.217"
+  host: "106.53.162.149"
   port: 8000
 
 
 redis:
-  host: "43.139.192.217"
+  host: "106.53.162.149"
   password: "123456"
   db: 0
   port: 6379
@@ -13,26 +13,26 @@ redis:
 
 
 redsync:
-  - host: "43.139.192.217"
+  - host: "106.53.162.149"
     password: "123456"
     port: 6380
     LockExpire: 4
     PoolSize: 10
 
-  - host: "43.139.192.217"
+  - host: "106.53.162.149"
     password: "123456"
     port: 6381
     LockExpire: 4
     PoolSize: 10
 
-  - host: "43.139.192.217"
+  - host: "106.53.162.149"
     password: "123456"
     port: 6379
     LockExpire: 4
     PoolSize: 10
 
 mysql:
-  host: "43.139.192.217"
+  host: "106.53.162.149"
   port: "8086"
   database: "camps_tiktok"
   username: "root"
@@ -50,7 +50,7 @@ log:
   max_backups: 7
 
 consul:
-  host: "43.139.192.217"
+  host: "106.53.162.149"
   port: 8500
   tags:
     - "usersvr"
